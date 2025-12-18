@@ -1,0 +1,36 @@
+Git:A tool that tracks changes in your code and lets you save, undo, and manage different versions of a project.
+
+GitHub: A website that stores Git projects online so people can share code, collaborate, and work together.
+
+1. git init
+Starts Git in this folder.
+
+2. git add
+Did nothing because no file was mentioned.
+
+3. git add .
+Tells Git to prepare all files.
+
+4. git commit -m "my first commit" (failed)
+Git stopped because  name and email were not set.
+
+5. git config --global user.email "avignasunkara@gmail.com"
+Sets the email for Git.
+
+6. git config --global user.name "avignasunkara"
+Sets the  name for Git.
+
+7. git commit -m "my first commit"
+Saves the files in Git.
+
+8. git remote add origin <repo-url>
+Connects the created  folder to GitHub.
+
+9. git branch
+Shows your current branch.
+
+10. git branch -m master
+Keeps branch name as master.
+
+11. git push -u origin master
+Uploads the code to GitHub.
