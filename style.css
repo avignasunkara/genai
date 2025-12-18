@@ -1,47 +1,119 @@
+/* Global Reset & SEO Performance */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  line-height: 1.6;
   background: #f4f4f4;
   color: #333;
 }
 
+/* Header */
 header {
   background: #222;
-  color: white;
-  padding: 20px;
+  color: #fff;
+  padding: 25px;
   text-align: center;
 }
 
+header h1 {
+  font-size: 2.2rem;
+}
+
+header p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+/* Sections */
 section {
+  background: #fff;
   padding: 20px;
-  margin: 10px;
-  background: white;
+  margin: 15px auto;
+  max-width: 900px;
   border-radius: 8px;
 }
 
-.skills ul {
+/* Headings */
+h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* Lists */
+ul {
   list-style: none;
-  padding: 0;
 }
 
+/* Skills */
 .skills li {
-  background: #ddd;
   display: inline-block;
-  padding: 5px 10px;
-  margin: 5px;
-  border-radius: 5px;
+  background: #e0e0e0;
+  padding: 6px 12px;
+  margin: 6px;
+  border-radius: 6px;
+  font-size: 0.9rem;
 }
 
+/* Project Cards */
 .card {
-  background: #e3e3e3;
+  background: #f1f1f1;
   padding: 15px;
-  margin: 10px 0;
-  border-radius: 5px;
+  margin: 12px 0;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
 }
 
-footer {
-  text-align: center;
-  padding: 10px;
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Contact Links */
+.contact a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Resume Button */
+.resume-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
   background: #222;
-  color: white;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.resume-btn:hover {
+  background: #000;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+/* Responsive SEO */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  section {
+    margin: 10px;
+  }
 }
